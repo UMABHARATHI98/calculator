@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prifit Loss Calculator</title>
+    <style>
+        button{
+            padding: 6px;
+            margin: 5px;
+            background-color: chartreuse;
+            border: none;
+            border-radius: 4px;
+        }
+        p{
+            font-size: larger;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="plcalculator">
+        <!-- <h1 style="color:green;"> Welcome To Tutorials Point</h1> -->
+        <h1><center>Profit and Loss Calculator</center></h1>
+        <p>Enter the Cost Price(CP):
+            <input class="cp" type="number">
+        </p>
+        <p>Enter The Selling Price(SP):
+            <input class="sp" type=" number">
+        </p>
+        <button onclick="Calculate()">Calculate Profit/Loss</button>
+        <p>
+            <h2 class="loss"></h2>
+            <h2 class="lossPercentage"></h2>
+            <h2 class="nothing"></h2>
+        </p>
+    </div>
+    <script src="plcalc.js">
+        
+    </script>
+
+    
+</body>
+</html>
